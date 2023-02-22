@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #181719;
+    color: #fff;
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.logo {
+    font-size: 14px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.menu-icon {
+    display: none !important;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-text {
+    width: 60%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin: 23px 0;
+}
+
+main img {
+    width: 737px;
+}
+
+.image-card {
+    position: relative;
+}
+
+.card {
+    background-color: #181719;
+    padding: 10px;
+    width: 55%;
+    position: absolute;
+    z-index: 10;
+    bottom: -5%;
+    left: 40%;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    margin-right: 14px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.card-text {
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    color: #828282;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin: 12px 0;
+    }
+
+    .heading {
+        font-size: 36px;
+        font-family: 'Lora', sans-serif;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block !important;
+    }
+
+    .heading {
+        margin: 38px 0 25px 0;
+    }
+
+    
+
+    a {
+        text-decoration: none;
+    }
+
+    .image-card {
+        position: relative;
+    }
+
+    main {
+        display: block;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    .main-text {
+        width: auto;
+    }
+
+    .card {
+        width: 85%;
+        bottom: -10%;
+        left: 12%;
+    }
+
+    
+
+    footer {
+        margin-top: 70px;
+    }
+
+}
