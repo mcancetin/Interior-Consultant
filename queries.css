@@ -73,13 +73,13 @@
   .card {
   padding: 0.8rem 1.6rem;
 
-  transform: translate(-10%, 55%);
+  transform: translate(-5%, 55%);
 
   }
 
 
   .card-text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2.3rem;
   }
 }
