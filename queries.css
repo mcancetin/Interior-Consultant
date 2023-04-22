@@ -38,7 +38,6 @@
 }
 
 @media (max-width: 650px) {
-
   nav {
     display: none;
   }
@@ -56,8 +55,8 @@
     font-size: 20px;
   }
   .overlay .closebtn {
-    top: 4.5rem;
-    right: 5rem;
+    top: 4.2rem;
+    right:3rem;
   }
 
   section p {
@@ -71,12 +70,9 @@
   }
 
   .card {
-  padding: 0.8rem 1.6rem;
-
-  transform: translate(-5%, 55%);
-
+    padding: 0.8rem 1.6rem;
+    transform: translate(-5%, 55%);
   }
-
 
   .card-text {
     font-size: 1.4rem;
