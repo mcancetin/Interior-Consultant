@@ -1,0 +1,85 @@
+@media (max-width: 1024px) {
+  header {
+    margin-bottom: 8rem;
+  }
+
+  .nav-el {
+    font-size: 1.4rem;
+  }
+
+  ul {
+    gap: 4rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  section {
+    margin-bottom: 4rem;
+  }
+
+  section p {
+    margin-bottom: 1.6rem;
+  }
+
+  main {
+    display: block;
+  }
+
+  main img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  section p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+  }
+
+  .menu-icon {
+    display: inline-block !important;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    top: 4.5rem;
+    right: 5rem;
+  }
+
+  section p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+
+  .link a {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+
+  .card {
+  padding: 0.8rem 1.6rem;
+
+  transform: translate(-10%, 55%);
+
+  }
+
+
+  .card-text {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+}
